@@ -1,0 +1,32 @@
+;/*FB_PKG_DELIM*/
+
+__d("XFBAdLibraryDateFilterTypeUtils.facebook",["$InternalEnumUtils","AdLibraryDateFilterType"],(function(a,b,c,d,e,f,g){a=d("$InternalEnumUtils").createToJSEnum(c("AdLibraryDateFilterType"));b=d("$InternalEnumUtils").createFromJSEnum(c("AdLibraryDateFilterType"));g.toJSEnum=a;g.fromJSEnum=b}),98);/*FB_PKG_DELIM*/
+__d("AdsTransparencySubscriptionTypeUtils.facebook",["$InternalEnumUtils","AdsTransparencySubscriptionType"],(function(a,b,c,d,e,f,g){a=d("$InternalEnumUtils").createToJSEnum(c("AdsTransparencySubscriptionType"));b=d("$InternalEnumUtils").createFromJSEnum(c("AdsTransparencySubscriptionType"));g.toJSEnum=a;g.fromJSEnum=b}),98);/*FB_PKG_DELIM*/
+__d("XFBAdLibrarySearchTypeUtils.facebook",["$InternalEnumUtils","AdLibrarySearchType"],(function(a,b,c,d,e,f,g){a=d("$InternalEnumUtils").createToJSEnum(c("AdLibrarySearchType"));b=d("$InternalEnumUtils").createFromJSEnum(c("AdLibrarySearchType"));g.toJSEnum=a;g.fromJSEnum=b}),98);/*FB_PKG_DELIM*/
+__d("XFBAdLibraryMediaTypeUtils.facebook",["$InternalEnumUtils","AdLibraryMediaType"],(function(a,b,c,d,e,f,g){a=d("$InternalEnumUtils").createToJSEnum(c("AdLibraryMediaType"));b=d("$InternalEnumUtils").createFromJSEnum(c("AdLibraryMediaType"));g.toJSEnum=a;g.fromJSEnum=b}),98);/*FB_PKG_DELIM*/
+__d("XAdLibraryBrandedContentControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/ads/library/branded_content/",Object.freeze({}),void 0);b=a;g["default"]=b}),98);/*FB_PKG_DELIM*/
+__d("XAdLibraryReportFoundationControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/ads/library/report/",Object.freeze({}),void 0);b=a;g["default"]=b}),98);/*FB_PKG_DELIM*/
+__d("AdLibraryV2SortModeUtils.facebook",["$InternalEnumUtils","AdLibraryV2SortMode"],(function(a,b,c,d,e,f,g){a=d("$InternalEnumUtils").createToJSEnum(c("AdLibraryV2SortMode"));b=d("$InternalEnumUtils").createFromJSEnum(c("AdLibraryV2SortMode"));g.toJSEnum=a;g.fromJSEnum=b}),98);/*FB_PKG_DELIM*/
+__d("AdLibrarySortDirectionUtils.facebook",["$InternalEnumUtils","AdLibrarySortDirection"],(function(a,b,c,d,e,f,g){a=d("$InternalEnumUtils").createToJSEnum(c("AdLibrarySortDirection"));b=d("$InternalEnumUtils").createFromJSEnum(c("AdLibrarySortDirection"));g.toJSEnum=a;g.fromJSEnum=b}),98);/*FB_PKG_DELIM*/
+__d("XAdLibraryAPIFoundationControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/ads/library/api/",Object.freeze({}),void 0);b=a;g["default"]=b}),98);/*FB_PKG_DELIM*/
+__d("AdLibraryResultSection",[],(function(a,b,c,d,e,f){a=Object.freeze({ADS:"ads",ABOUT:"about",AUDIENCE:"audience",DISCLAIMER:"disclaimer"});f["default"]=a}),66);/*FB_PKG_DELIM*/
+__d("AdLibraryDateFilterType",["$InternalEnum"],(function(a,b,c,d,e,f){a=b("$InternalEnum")({AFTER:"after",BETWEEN:"between",BEFORE:"before",ON:"on"});c=a;f["default"]=c}),66);/*FB_PKG_DELIM*/
+__d("XFBPoliticalAdArchiveActiveStatus.facebook",["$InternalEnum"],(function(a,b,c,d,e,f){a=b("$InternalEnum").Mirrored(["ACTIVE","ALL","INACTIVE"]);c=a;f["default"]=c}),66);/*FB_PKG_DELIM*/
+__d("AdAccountDisclaimerLabel",[],(function(a,b,c,d,e,f){a=Object.freeze({PAID_FOR_BY:1,PROPAGANDA_ELEITORAL_BR:2,PUBLISHED_BY:3});f["default"]=a}),66);/*FB_PKG_DELIM*/
+__d("XFBPageSubscriptionEmailFrequency.facebook",["$InternalEnum"],(function(a,b,c,d,e,f){a=b("$InternalEnum").Mirrored(["DAILY","WEEKLY"]);c=a;f["default"]=c}),66);/*FB_PKG_DELIM*/
+__d("AdLibraryPageAudienceTabContext",["react"],(function(a,b,c,d,e,f,g){"use strict";var h;a=h||d("react");b=a.createContext({audienceTimeframe:null});g["default"]=b}),98);/*FB_PKG_DELIM*/
+__d("AdReportContext.react",["react"],(function(a,b,c,d,e,f,g){"use strict";var h;a=h||d("react");b=a.createContext({scrollToReportDownload:function(){}});g["default"]=b}),98);/*FB_PKG_DELIM*/
+__d("AdLibraryPageTargetingQueryTime",[],(function(a,b,c,d,e,f){a=Object.freeze({LAST_7_DAYS:"last_7_days",LAST_30_DAYS:"last_30_days",LAST_90_DAYS:"last_90_days"});f["default"]=a}),66);/*FB_PKG_DELIM*/
+__d("PageVerificationBadge",[],(function(a,b,c,d,e,f){a=Object.freeze({BLUE_VERIFIED:"blue_verified",GRAY_VERIFIED:"gray_verified",NOT_VERIFIED:"not_verified"});f["default"]=a}),66);/*FB_PKG_DELIM*/
+__d("AdArchiveCategory",[],(function(a,b,c,d,e,f){a=Object.freeze({UNKNOWN:0,POLITICAL:1,HOUSING:2,EMPLOYMENT:3,CREDIT:4});f["default"]=a}),66);/*FB_PKG_DELIM*/
+__d("PoliticalAdArchiveMobileStatusContext",["react"],(function(a,b,c,d,e,f,g){"use strict";var h;a=h||d("react");b=!1;c=a.createContext(b);g["default"]=c}),98);/*FB_PKG_DELIM*/
+__d("XPolicyCenterControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f,g){a=c("jsRouteBuilder")("/policies/",Object.freeze({}),void 0);b=a;g["default"]=b}),98);/*FB_PKG_DELIM*/
+__d("AdArchiveType",[],(function(a,b,c,d,e,f){a=Object.freeze({UNKNOWN:0,ELECTORAL:1,ISSUE:2,EMPLOYEE_TARGETING:3});f["default"]=a}),66);/*FB_PKG_DELIM*/
+__d("PoliticalAdArchiveActiveStatus",[],(function(a,b,c,d,e,f){a=Object.freeze({ACTIVE:"active",ALL:"all",INACTIVE:"inactive"});f["default"]=a}),66);/*FB_PKG_DELIM*/
+__d("PoliticalFundingDataHiddenStatus",[],(function(a,b,c,d,e,f){a=Object.freeze({ALL:"ALL",CONTACT:"CONTACT",NONE:"NONE"});f["default"]=a}),66);/*FB_PKG_DELIM*/
+__d("AdLibraryIsDeeplinkAdContext",["react"],(function(a,b,c,d,e,f,g){"use strict";var h;a=h||d("react");b=a.createContext(!1);g.AdLibraryIsDeeplinkAdContext=b}),98);/*FB_PKG_DELIM*/
+__d("AdLibraryMultiCountryFilterMode",["$InternalEnum"],(function(a,b,c,d,e,f){a=b("$InternalEnum")({ALL:"all",ANY:"any"});c=a;f["default"]=c}),66);/*FB_PKG_DELIM*/
+__d("AdLibraryTargetLocationLevel",[],(function(a,b,c,d,e,f){a=Object.freeze({COUNTRY:1,REGION:2,CITY:3});f["default"]=a}),66);/*FB_PKG_DELIM*/
+__d("ContactPointVerificationType",[],(function(a,b,c,d,e,f){a=Object.freeze({PHONE:"phone",EMAIL:"email"});f["default"]=a}),66);/*FB_PKG_DELIM*/
+__d("AdLibrarySortDirection",[],(function(a,b,c,d,e,f){a=Object.freeze({ASCENDING:"asc",DESCENDING:"desc"});f["default"]=a}),66);/*FB_PKG_DELIM*/
+__d("BaseLayoutStickyProvider.react",["WebLayoutStickyProvider.react"],(function(a,b,c,d,e,f,g){"use strict";g["default"]=c("WebLayoutStickyProvider.react")}),98);
